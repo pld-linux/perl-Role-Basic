@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Role
 %define		pnam	Basic
+%include	/usr/lib/rpm/macros.perl
 Summary:	Role::Basic - Just roles
 Name:		perl-Role-Basic
 Version:	0.13
@@ -13,6 +13,7 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/O/OV/OVID/Role-Basic-%{version}.tar.gz
 # Source0-md5:	2985fbb47bd0a862bd56bc7cbba6e673
+URL:		http://search.cpan.org/dist/Role-Basic/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
