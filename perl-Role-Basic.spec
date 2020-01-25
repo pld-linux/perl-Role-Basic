@@ -4,7 +4,6 @@
 
 %define		pdir	Role
 %define		pnam	Basic
-%include	/usr/lib/rpm/macros.perl
 Summary:	Role::Basic - Just roles
 Name:		perl-Role-Basic
 Version:	0.13
